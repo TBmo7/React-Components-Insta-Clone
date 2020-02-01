@@ -16,15 +16,18 @@ const App = () => {
   //console.log({dummyData});
 
   // set up state for the dummy data and pass to your PostsPage
+  //const data = {dummyData};
+  //console.log(data);
   return (
 
     <div className="App">
-        <SearchBar/>
-        <PostsPage />
+
 
       {/* Add components here  and pass props where appropriate */
-
-
+        <div>
+        <SearchBar/>
+        <PostsPage data = {dummyData} />
+        </div>
       }
     </div>
   );
