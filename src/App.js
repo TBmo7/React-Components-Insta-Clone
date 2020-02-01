@@ -13,10 +13,19 @@ import dummyData from "./dummy-data.js"
 // import dummydata
 
 const App = () => {
+  //console.log({dummyData});
+
   // set up state for the dummy data and pass to your PostsPage
   return (
+
     <div className="App">
-      {/* Add components here  and pass props where appropriate */}
+        <SearchBar/>
+        <PostsPage />
+
+      {/* Add components here  and pass props where appropriate */
+
+
+      }
     </div>
   );
 };
