@@ -26,7 +26,7 @@ const App = () => {
       {/* Add components here  and pass props where appropriate */
         <div>
         <SearchBar/>
-        <PostsPage data = {dummyData} />
+        <PostsPage inputdata = {dummyData} />
         </div>
       }
     </div>
