@@ -49,6 +49,12 @@
   width: 10px;
   margin: 10px;
 }
+.like-section-wrapper button{
+  padding: 0;
+  border: none;
+  background: none;
+}
+
 .like-number {
   width: 100px;
   margin: 15px 0px;
